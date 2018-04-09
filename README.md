@@ -1,15 +1,15 @@
 # My-grid-system
 <p>This is a grid system I created using html and css only to contain a maximum of 8 colums.
-There are to css files: The grid.css file which is the main grid structure and the custom css to adjust the properties
+There are 2 css files: The grid.css file which is the main grid structure and the custom css to adjust the properties
 like height, padding etc to suit the users test.</p>
 <p> The topmost column is the space for the navigation and Header,
 The colums at the center is for pictures or cards and the last column is for the footer
 <p> I used the formula  width=calc(100% / 8 * x) to get the exact number of columns. Where 8 is the maximum number 
 of columns it can contain and is equal to 100%, i.e to say 8 represents 100%.</p> 
-<p>* For col-1, x = 1, i.e calc(100%/ 8 * 1) means that the total number of columns 
-8 and each has a size of one relative to the total size 8 and a percentage of 12.5 each.</p>
-<p>* For col-2, x = 2, i.e calc(100% / 8 * 2) means that each column has a percentage of 25 and there are 4 colums in that row
-Wheas 8/2 =4.</p>
+* For col-1, x = 1, i.e calc(100%/ 8 * 1) means that the total number of columns is are
+8 and each has a size of one relative to the total size 8 and a percentage of 12.5 each.
+* For col-2, x = 2, i.e calc(100% / 8 * 2) means that each column has a percentage of 25 and there are 4 colums in that row
+Wheas 8/2 =4.
 </p>* For col-3, x =3 i.e calc(100% / 8 * 3) it means that there are 3 columns in that row and each has a percentage of 33.3 
 i.e 100/3.
 **NOTE** : This won't give a round number. And it will cause unequal alignment in the grid system because 8/3 will give each column a size of 
